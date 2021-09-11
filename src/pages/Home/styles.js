@@ -1,5 +1,8 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-  background-color: black;
+export const Container = styled.aside`
+  background-color: ${(props) => props.theme.colors.background};
+  widht: 360px;
+  height: 100vh;
+  overflow-y: auto;
 `;
