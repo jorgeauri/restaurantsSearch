@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
 `;
+
 export const Container = styled.aside`
   background-color: ${(props) => props.theme.colors.background};
   widht: 360px;
@@ -32,7 +33,7 @@ export const Map = styled.div`
 
 export const Carousel = styled(Slider)`
   .slick-slide: right {
-    margin-right: 16px;
+    margin-right: 30px;
   }
 `;
 
