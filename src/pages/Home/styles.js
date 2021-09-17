@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
 
 export const Container = styled.aside`
   background-color: ${(props) => props.theme.colors.background};
-  widht: 360px;
+  width: 360px;
   height: 100vh;
   overflow-y: auto;
 `;
