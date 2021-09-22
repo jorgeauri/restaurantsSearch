@@ -1370,6 +1370,15 @@
   dependencies:
     tslib "^1.9.3"
 
+"@material/elevation@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@material/elevation/-/elevation-1.1.0.tgz#def23c360ae067b43c1632a331b9883b9f679cc5"
+  integrity sha512-m4eATJvDhWK1BT+yA1iHz5mhAk8cV9olC4mjVzm4PTAqhDH2yya4WzjN1HPVHE/a65ObyZ7V4qopxu9MRocm3A==
+  dependencies:
+    "@material/animation" "^1.0.0"
+    "@material/feature-targeting" "^0.44.1"
+    "@material/theme" "^1.1.0"
+
 "@material/feature-targeting@^0.44.1":
   version "0.44.1"
   resolved "https://registry.npmjs.org/@material/feature-targeting/-/feature-targeting-0.44.1.tgz"
@@ -1487,6 +1496,15 @@
     classnames "^2.2.6"
     utility-types "^3.2.1"
 
+"@material/react-switch@^0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@material/react-switch/-/react-switch-0.15.0.tgz#759b7f7261a80daa1ddf53b3173191d70025953a"
+  integrity sha512-WHFQyfDLe+WDeEUF5qfQTmuNYu9jPUcdFBDRDBqEwJp3xZYNRINzRqfDN/6TuQuBhEQnmixMthlMlRi2rVDNsw==
+  dependencies:
+    "@material/react-ripple" "^0.15.0"
+    "@material/switch" "^1.0.0"
+    classnames "^2.2.6"
+
 "@material/react-text-field@^0.15.0":
   version "0.15.0"
   resolved "https://registry.npmjs.org/@material/react-text-field/-/react-text-field-0.15.0.tgz"
@@ -1498,7 +1516,7 @@
     "@material/textfield" "^2.3.1"
     classnames "^2.2.6"
 
-"@material/ripple@^1.0.0":
+"@material/ripple@^1.0.0", "@material/ripple@^1.1.0":
   version "1.1.0"
   resolved "https://registry.npmjs.org/@material/ripple/-/ripple-1.1.0.tgz"
   integrity sha512-mkfDBZAmxjpRG7V9TrfOmLxt1g/wvGHCXtYPgvH7W8ozjf53edqxLOFENEdvHbie27y9nyixzXn0gzU0HnxSeA==
@@ -1533,6 +1551,21 @@
   integrity sha512-Jge/h1XBLjdLlam4QMSzVgM99e/N8+elQROPkltqVP7eyLc17BwM3aP5cLVfZDgrJgvsjUxbgAP1H1j8sqmUyg==
   dependencies:
     "@material/feature-targeting" "^0.44.1"
+
+"@material/switch@^1.0.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@material/switch/-/switch-1.1.0.tgz#c64b19523c4a495de9df022940ce5a5d2c21cbb2"
+  integrity sha512-hwgPzMgZksmJB/hOHQqrT7SZ6TpYaBtkW6BDhCojluBzaMDfDZxeXbNAhAYCO+tJI9p+CndPF+InsocCQDAJXA==
+  dependencies:
+    "@material/animation" "^1.0.0"
+    "@material/base" "^1.0.0"
+    "@material/dom" "^1.1.0"
+    "@material/elevation" "^1.1.0"
+    "@material/feature-targeting" "^0.44.1"
+    "@material/ripple" "^1.1.0"
+    "@material/rtl" "^0.42.0"
+    "@material/theme" "^1.1.0"
+    tslib "^1.9.3"
 
 "@material/textfield@^2.3.1":
   version "2.3.1"
@@ -9311,6 +9344,13 @@ react-slick@^0.28.1:
     json2mq "^0.2.0"
     lodash.debounce "^4.0.8"
     resize-observer-polyfill "^1.5.0"
+
+react-switch@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/react-switch/-/react-switch-6.0.0.tgz#bd4a2dea08f211b8a32e55e8314fd44bc1ec947e"
+  integrity sha512-QV3/6eRK5/5epdQzIqvDAHRoGLbCv/wDpHUi6yBMXY1Xco5XGuIZxvB49PHoV1v/SpEgOCJLD/Zo43iic+aEIw==
+  dependencies:
+    prop-types "^15.7.2"
 
 react@^16.13.1:
   version "16.13.1"

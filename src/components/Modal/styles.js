@@ -26,7 +26,7 @@ export const Dialog = styled.div`
   max-height: calc(100% - 144px);
   width: 500px;
   padding: 24px;
-  background-color: #ffffff;
+  background-color: ${(props) => props.theme.colors2.background};
   box-shadow: 0px 0px 32px rgba(78, 89, 131, 0.2);
   border-radius: 8px;
 `;

@@ -6,7 +6,8 @@ export const Restaurant = styled.div`
   cursor: pointer;
   margin-top: 5px;
   padding: 16px;
-  background-color: #ffffff;
+  background-color: ${(props) => props.theme.colors3.background};
+  /* border: 1px solid ${(props) => props.theme.colors.border}; */
   border-left: 5px solid transparent;
   :hover {
     background-color: ${(props) => props.theme.colors.background};
